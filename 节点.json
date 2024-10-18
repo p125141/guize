@@ -1,0 +1,286 @@
+[
+  {
+    "type": "vless",
+    "name": "美国1",
+    "server": "148.135.4.143",
+    "port": 48664,
+    "uuid": "1dceb93c-4fb5-4c9f-a5c4-46224c388614",
+    "tls": true,
+    "sni": "cloud.p1251419696.cloudns.biz",
+    "flow": "xtls-rprx-vision",
+    "client-fingerprint": "chrome",
+    "skip-cert-verify": false,
+    "reality-opts": {
+      "public-key": "gHg5la7h8_IjHAOFayjfZeerhJZQ8TK37a5bYYK_gHY",
+      "short-id": "559f5431"
+    },
+    "network": "tcp",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "name": "vm-ws-tls-p1251419696",
+    "type": "vmess",
+    "server": "148.135.4.143",
+    "port": 2095,
+    "cipher": "auto",
+    "uuid": "1dceb93c-4fb5-4c9f-a5c4-46224c388614",
+    "alterId": 0,
+    "tls": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/1dceb93c-4fb5-4c9f-a5c4-46224c388614-vm",
+      "headers": {
+        "Host": "cloud.p1251419696.cloudns.biz"
+      }
+    },
+    "sni": "cloud.p1251419696.cloudns.biz",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "hysteria2",
+    "name": "美国2",
+    "server": "cloud.p1251419696.cloudns.biz",
+    "port": 52673,
+    "ports": "52673",
+    "password": "1dceb93c-4fb5-4c9f-a5c4-46224c388614",
+    "sni": "cloud.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tfo": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "tuic",
+    "name": "美国3",
+    "server": "cloud.p1251419696.cloudns.biz",
+    "port": 10058,
+    "password": "1dceb93c-4fb5-4c9f-a5c4-46224c388614",
+    "uuid": "1dceb93c-4fb5-4c9f-a5c4-46224c388614",
+    "congestion-control": "bbr",
+    "udp-relay_mode": "native",
+    "alpn": [
+      "h3"
+    ],
+    "sni": "cloud.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "vless",
+    "name": "美国4",
+    "server": "192.3.229.30",
+    "port": 56218,
+    "uuid": "1e330673-f92c-486e-a48f-8ac8dc9842b2",
+    "tls": true,
+    "sni": "www.yahoo.com",
+    "flow": "xtls-rprx-vision",
+    "client-fingerprint": "chrome",
+    "skip-cert-verify": false,
+    "reality-opts": {
+      "public-key": "h3bAe1xzazfCdBmojO0K0R1Fp47c1ZaY7BgmZlFPBCw",
+      "short-id": "2bd4022e"
+    },
+    "network": "tcp",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "name": "vm-ws-tls-racknerd-a004ba",
+    "type": "vmess",
+    "server": "192.3.229.30",
+    "port": 2053,
+    "cipher": "auto",
+    "uuid": "1e330673-f92c-486e-a48f-8ac8dc9842b2",
+    "alterId": 0,
+    "tls": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/1e330673-f92c-486e-a48f-8ac8dc9842b2-vm",
+      "headers": {
+        "Host": "rak.p1251419696.cloudns.biz"
+      }
+    },
+    "sni": "rak.p1251419696.cloudns.biz",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "hysteria2",
+    "name": "美国5",
+    "server": "rak.p1251419696.cloudns.biz",
+    "port": 17038,
+    "ports": "17038",
+    "password": "1e330673-f92c-486e-a48f-8ac8dc9842b2",
+    "sni": "rak.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tfo": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "tuic",
+    "name": "美国6",
+    "server": "rak.p1251419696.cloudns.biz",
+    "port": 27212,
+    "password": "1e330673-f92c-486e-a48f-8ac8dc9842b2",
+    "uuid": "1e330673-f92c-486e-a48f-8ac8dc9842b2",
+    "congestion-control": "bbr",
+    "udp-relay_mode": "native",
+    "alpn": [
+      "h3"
+    ],
+    "sni": "rak.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "vless",
+    "name": "美国7",
+    "server": "107.174.181.219",
+    "port": 37611,
+    "uuid": "ef214df3-a6d8-498e-ab99-ccb6503fd134",
+    "tls": true,
+    "sni": "rak2.p1251419696.cloudns.biz",
+    "flow": "xtls-rprx-vision",
+    "client-fingerprint": "chrome",
+    "skip-cert-verify": false,
+    "reality-opts": {
+      "public-key": "y8qy7UspXbe6otHMdFCeGgfxToeLjGdKsYnGyl7htXA",
+      "short-id": "cc8a8181"
+    },
+    "network": "tcp",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "name": "vm-ws-tls-racknerd-ff49798",
+    "type": "vmess",
+    "server": "107.174.181.219",
+    "port": 2095,
+    "cipher": "auto",
+    "uuid": "ef214df3-a6d8-498e-ab99-ccb6503fd134",
+    "alterId": 0,
+    "tls": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/ef214df3-a6d8-498e-ab99-ccb6503fd134-vm",
+      "headers": {
+        "Host": "rak2.p1251419696.cloudns.biz"
+      }
+    },
+    "sni": "rak2.p1251419696.cloudns.biz",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "hysteria2",
+    "name": "美国8",
+    "server": "rak2.p1251419696.cloudns.biz",
+    "port": 59977,
+    "ports": "59977",
+    "password": "ef214df3-a6d8-498e-ab99-ccb6503fd134",
+    "sni": "rak2.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tfo": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "tuic",
+    "name": "美国9",
+    "server": "rak2.p1251419696.cloudns.biz",
+    "port": 49271,
+    "password": "ef214df3-a6d8-498e-ab99-ccb6503fd134",
+    "uuid": "ef214df3-a6d8-498e-ab99-ccb6503fd134",
+    "congestion-control": "bbr",
+    "udp-relay_mode": "native",
+    "alpn": [
+      "h3"
+    ],
+    "sni": "rak2.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "vless",
+    "name": "俄罗斯1",
+    "server": "45.130.146.57",
+    "port": 25067,
+    "uuid": "3ce742be-ea8c-46e3-ad1c-b83cde1af761",
+    "tls": true,
+    "sni": "www.yahoo.com",
+    "flow": "xtls-rprx-vision",
+    "client-fingerprint": "chrome",
+    "skip-cert-verify": false,
+    "reality-opts": {
+      "public-key": "u30ph5X-PFKwFYwvXCeHO-v15VRetxL-VdrhLsDQ9As",
+      "short-id": "108b65cc"
+    },
+    "network": "tcp",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "name": "vm-ws-tls-vm551958",
+    "type": "vmess",
+    "server": "45.130.146.57",
+    "port": 8443,
+    "cipher": "auto",
+    "uuid": "3ce742be-ea8c-46e3-ad1c-b83cde1af761",
+    "alterId": 0,
+    "tls": true,
+    "network": "ws",
+    "ws-opts": {
+      "path": "/3ce742be-ea8c-46e3-ad1c-b83cde1af761-vm",
+      "headers": {
+        "Host": "jus.p1251419696.cloudns.biz"
+      }
+    },
+    "sni": "jus.p1251419696.cloudns.biz",
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "hysteria2",
+    "name": "俄罗斯2",
+    "server": "jus.p1251419696.cloudns.biz",
+    "port": 19273,
+    "ports": "19273",
+    "password": "3ce742be-ea8c-46e3-ad1c-b83cde1af761",
+    "sni": "jus.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tfo": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  },
+  {
+    "type": "tuic",
+    "name": "俄罗斯3",
+    "server": "jus.p1251419696.cloudns.biz",
+    "port": 23049,
+    "password": "3ce742be-ea8c-46e3-ad1c-b83cde1af761",
+    "uuid": "3ce742be-ea8c-46e3-ad1c-b83cde1af761",
+    "congestion-control": "bbr",
+    "udp-relay_mode": "native",
+    "alpn": [
+      "h3"
+    ],
+    "sni": "jus.p1251419696.cloudns.biz",
+    "skip-cert-verify": false,
+    "tls": true,
+    "_subName": "自建",
+    "_subDisplayName": ""
+  }
+]
